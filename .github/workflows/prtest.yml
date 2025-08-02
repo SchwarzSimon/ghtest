@@ -1,0 +1,13 @@
+on:
+  pull_request:
+
+name: PR Test Workflow
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run tests
+        run: |
+          echo "hello, world"
